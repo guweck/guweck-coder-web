@@ -8,6 +8,7 @@
 
 /**---HEADER--- Distribuyo los elementos con Flexbox**/
 
+/**--HEADER pasado--**/
 header{
     background-color: rgb(250, 163, 105);
     padding: 25px rgb(250, 163, 105);
@@ -17,6 +18,7 @@ header{
     z-index: 1;
 }
 
+/**--.LOGO  pasado..**/
 .logo{
     display:flex;
     width: 225px;
@@ -24,6 +26,7 @@ header{
     align-items: center;
     transition: .5s;
 }
+/**--hover pasado--**/
 .logo:hover{
     transform:scale(1.1);
     box-shadow: -1px 10px 42px -7px rgba(0,0,0,.75);
@@ -32,18 +35,20 @@ header{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-
+/**--ul pasado--**/
 header nav ul {
     margin-top: 25px;
     list-style: none;
 }
 
 /**----Paso visualización de elementos de enlaces a INLINE---**/
+/**--li pasado--**/
 header nav ul li{
     display: inline-block;
     margin: 10 20px 10 20px;
     padding: 20px;
 }
+/**--a pasado--**/
 header nav ul li a{
     color: rgb(187, 187, 226);
     font-family: Arial, Helvetica, sans-serif;
@@ -57,6 +62,7 @@ header nav ul li a{
 }
 
 /**---Pseudoclase hover para resaltar botones de nav--**/
+/**--hover pasado--**/
 header nav ul li a:hover{
     color: white;
     text-decoration: solid;
@@ -69,9 +75,11 @@ header nav ul li a:hover{
 }
 
 /**---MAIN---*/
+/**--siguiente LÍNEA main pasada--**/
 main{
     background-color: rgb(250, 163, 105);
 }
+/**--mainhtml pasado--**/
 .mainhtml{
     display:flex;
     flex-direction: column;
@@ -86,9 +94,11 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/**--main-contacto pasado--**/
 .main-contacto{
     background-color: rgb(250, 163, 105);
 }
+/**--h1 pasado--**/
 main h1 {
     border: 2px solid white;
     background-color: rgb(250, 163, 105);
@@ -96,6 +106,7 @@ main h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+/**--turno pasado--**/
 .turno{
     color: rgb(187, 187, 226);
     font-family: Arial, Helvetica, sans-serif;
@@ -108,6 +119,7 @@ main h1 {
     margin: 20px;
     transition: .5s;
 }
+/**-- hovar (del <a>) PASADO--**/
 .turno:hover{
     color: white;
     text-decoration: solid;
@@ -118,58 +130,62 @@ main h1 {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);    
 }
+/**-- main div h2 pasado--**/
 main div h2 {
-
     background-color: rgb(250, 163, 105);
     font-size: 35px;
 }
+/**--p pasado--**/
 main div p{
     color:black;
     font-size: 25px;
 }
+/**--infomain pasado--**/
 .infomain{
     display:flex;
     flex-direction:column;
     align-items: center;
 }
+/**--infogus pasado--**/
 .infogus{
-
     background-color: rgb(250, 163, 105);
 }
-
+/**--avatar pasado--**/
 .avatar {
     height: 200px;
     width: 200px;
 }
-
+/**--servicios CREO QUE PASADO--**/
 .servicios {
     background-color: rgb(250, 163, 105);
     display:flex;
     flex-direction:column;
 }
+/**--img CREO QUE PASADO, corregí anidación no se si bien--**/
 .servicios img {
     height: 300px;
 }
-
+/**--testimonios pasado--**/
 .testimonios {
     display:flex;
     flex-direction:column;
     background-color: rgb(250, 163, 105);
 }
+/**--container-xl PASADO en TESTIMONIOS.html y SERVICIOS.html--**/
 .container-xl{
     display:flex;
     justify-content: left;
 }
-
+/**--img CREO QUE PASADO, corregí anidación no se si bien--**/
 .testimonios img {
     height: 400px;
 }
-
+/**--imgtestimonio pasado ni idea si está bien--**/
 .imgtestimonio{
     margin-bottom: 20px;
     transition: .5s
 }
-
+/**--.imgtestimonio:hover PASADO--**/
 .imgtestimonio:hover {
     transform:scale(1.1);
     box-shadow: -1px 10px 42px -7px rgba(0,0,0,.75);
@@ -178,6 +194,7 @@ main div p{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 /**--.grid-galeria es el contenedor de los divs con las imágenes (divs=hijos de la section grid-galeria). Por lo tanto, estos parámetros modificarán a los divs--**/
+/**--.grid-galeria pasado--**/
 .grid-galeria{
     width: 100%;
     margin-top: 15px color rgb(250, 163, 105);
@@ -189,20 +206,11 @@ main div p{
 }
 
 /**--modifico el tamaño de las imágenes para adaptarse al 100% del tamaño de su contenedor que es el div--**/
+/**--.grid-galeria div img--PASADO**/
 .grid-galeria div img{
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
-.grid-item{
-    transition: .5s;
-}
-.grid-item:hover{
-    transform:scale(1.1);
-    box-shadow: -1px 10px 42px -7px rgba(0,0,0,.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 /**---FOOTER---*/

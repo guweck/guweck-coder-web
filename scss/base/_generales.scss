@@ -1,0 +1,16 @@
+/**---RESET---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+/**--VARIABLES--**/
+$color-principal: rgb(250, 163, 105);
+$boton-pasivo: rgba(69, 47, 4, 0.936);
+$boton-activo: green;
+
+/**--EXTENDS--*/
+%flex{
+    display:flex;
+    flex-direction:column;
+}

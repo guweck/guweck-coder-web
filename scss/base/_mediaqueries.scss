@@ -1,0 +1,188 @@
+/**--mamushka OK--**/
+@media screen and (max-width:1024px) {
+    main{
+        .mainhtml{
+            height: 768px;
+        }
+    
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:980px) {
+    header{
+        align-items: center;
+        flex-direction: column;
+    }
+    main{
+        .grid-galeria{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:876px) {
+    main{
+        .mainhtml{
+            height: 657px;
+        }
+    }
+    main{
+        .mainhtml{
+            .infomain{
+                .avatar{
+                    height: 150px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+    main{
+        div{
+            h2{
+                font-size: 27;
+            }
+        }
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:745px) {
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        h1{
+            font-size: 45px;
+        }
+    }
+    main{
+        .grid-galeria{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:680px) {
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    display: flex;
+                    display: inline-block;
+                    flex-wrap: nowrap;
+                }
+            }
+        }
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:633px) {
+    header{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    display: block;
+                }
+            }
+        }
+    }
+    main{
+        .mainhtml{
+                    height: 474px;
+        }
+    }
+    main{
+        .mainhtml{
+            .infomain{
+                .avatar{
+                        height: 100px;
+                        width: 100px;
+                }
+            }
+        }
+    }
+    main{
+        h1{
+            font-size: 30px;
+        }
+    }
+    main{
+        div{
+            h2{
+                font-size: 18px;
+            }
+        }
+    }
+    main{
+        div{
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:550px) {
+    main{
+        .mainhtml{
+                    height: 412px;
+        }
+    }
+    footer{
+        img{
+            height: 60px;
+            width: 60px;
+        }
+    }
+}
+/**--mamushka OK--**/
+@media screen and (max-width:397px) {
+    header{
+        padding: 0px;
+        padding-bottom: 60px;
+    }
+    header{
+        .logo{
+        width: 168px;
+        height: 90px;
+        }
+    }
+    main{
+        .grid-galeria{
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows: 250px;
+        }
+    }
+    footer{
+        font-size: 10px;
+    }
+    footer{
+        img{
+            height: 45px;
+            width: 45px;
+        }
+    }
+}
