@@ -143,6 +143,18 @@
             }
         }
     }
+    main{
+        .testimonios{
+            .container-xl{
+                display: flex;
+                flex-direction: column;
+                .imgtestimonio{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
 }
 /**--mamushka OK--**/
 @media screen and (max-width:550px) {

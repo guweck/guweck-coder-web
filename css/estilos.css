@@ -220,7 +220,13 @@ footer {
   main div h2 {
     font-size: 18px; }
   main div p {
-    font-size: 13px; } }
+    font-size: 13px; }
+  main .testimonios .container-xl {
+    display: flex;
+    flex-direction: column; }
+    main .testimonios .container-xl .imgtestimonio {
+      max-width: 100%;
+      height: auto; } }
 
 /**--mamushka OK--**/
 @media screen and (max-width: 550px) {
